@@ -47,18 +47,15 @@ st.image(
     "https://img.myloview.com.br/quadros/podcast-background-recording-studio-microphone-with-audio-waveform-broadcast-radio-or-podcasting-dark-banner-with-copy-space-700-256423810.jpg",
     use_container_width=True,
 )
-# Título con tamaño de fuente ajustable
+st.title('GENERADOR DE TEXTO A AUDIO Y LENGUAJE BRAILLE MULTILINGÜE')
 st.markdown(
-    '<h1 style="font-size: 28px;">GENERADOR DE TEXTO A AUDIO Y LENGUAJE BRAILLE </h1>',
-    unsafe_allow_html=True
-)
-st.markdown(
-    "###### Aplicacion que convierte texto a audio y a lenguaje Braille para fines educativos. ideal para personas con discapacidad visual. "
-    "Soporta idioma Español, Inglés, Portugués, Italiano, Alemán, Francés."
+    "##### Esta Aplicacion convierte texto a audio y a lenguaje Braille para fines educativos. Ideal para personas con discapacidad visual. "
+    "Idiomas soportados: Español, Inglés, Portugués, Italiano, Alemán, Francés."
 )
 
 input_method = st.radio("Selecciona el método de entrada:", ("Subir PDF", "Ingresar texto manualmente"))
 
+# Definir la variable file_name correctamente
 if input_method == "Subir PDF":
     uploaded_file = st.file_uploader("Sube tu archivo PDF", type="pdf")
     if uploaded_file is not None:
@@ -67,9 +64,19 @@ if input_method == "Subir PDF":
     else:
         text = ""
         st.warning("Por favor, sube un archivo PDF válido para continuar.")
-else:
+elif input_method == "Ingresar texto manualmente":
     text = st.text_area("Ingresa tu texto aquí:", height=200)
+    if text.strip():
+        file_name = "texto_manual"  # Nombre por defecto para texto manual
+    else:
+        file_name = ""
+        st.warning("Por favor, ingresa algún texto para continuar.")
 
+# Asegurarnos de que file_name esté siempre definido
+if not file_name:
+    file_name = "sin_nombre"
+
+# Si el texto no está vacío, procesarlo
 if text.strip():
     st.text_area("Texto procesado:", text, height=200)
     lang = detect_language(text)

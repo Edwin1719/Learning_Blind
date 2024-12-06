@@ -1,2 +1,2 @@
 # Learning_Blind
-La aplicación convierte texto y PDFs en audio multilingüe y en Braille, facilitando el acceso a personas con discapacidad visual. Ideal para crear materiales educativos accesibles, ofrece soporte para varios idiomas, opciones de velocidad de lectura, y descarga de resultados en formatos MP3 y TXT. Perfecto para integrarse en proyectos de inclusión.
+The application converts text and PDFs into multilingual audio and Braille, facilitating access for people with visual disabilities. Ideal for creating accessible educational materials, it offers support for multiple languages, reading speed options, and downloading results in MP3 and TXT formats. Perfect to integrate into inclusion projects.

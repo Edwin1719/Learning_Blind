@@ -51,4 +51,5 @@ st-social-media-links is a Streamlit component used to display social media icon
 **DOCUMENTATION**
 
 !https://www.youtube.com/watch?v=t15kAnnBGJQ
+
 !https://hackernoon.com/lang/es/un-tutorial-esencial-de-texto-a-voz-de-python-usando-la-biblioteca-pyttsx3

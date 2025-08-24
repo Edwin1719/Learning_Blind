@@ -1,6 +1,0 @@
-streamlit
-PyPDF2
-langdetect
-gtts
-mutagen
-st_social_media_links

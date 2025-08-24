@@ -1,0 +1,13 @@
+streamlit
+PyPDF2
+langdetect
+gtts
+mutagen
+openai
+st_social_media_links
+pillow
+pytesseract
+python-dotenv
+
+
+

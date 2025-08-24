@@ -1,0 +1,33 @@
+# Dependencias optimizadas para Educa Labs
+# Versión: 2.0 - Optimización PDF, TTS y OpenAI Premium
+
+# Framework web
+streamlit>=1.28.0
+
+# Procesamiento PDF mejorado
+pypdf>=4.0.0                 # Reemplaza PyPDF2, mejor compatibilidad
+
+# Text-to-Speech (TTS) - Dos opciones principales
+edge-tts>=6.1.0             # Microsoft Edge TTS (GRATIS, excelente calidad)
+openai>=1.12.0              # OpenAI TTS Premium (mejor calidad)
+
+# Configuración de variables de entorno
+python-dotenv>=1.0.0        # Para cargar archivo .env
+
+# Detección de idioma
+langdetect>=1.0.9
+
+# Procesamiento de imágenes (OCR)
+pillow>=10.0.0
+pytesseract>=0.3.10
+
+# Interfaz social (opcional)
+st_social_media_links>=0.1.0
+
+# Dependencias del sistema (instalar aparte):
+# - Para pytesseract: Tesseract-OCR engine
+# - Para pyttsx3: Voces del sistema operativo
+
+# Configuración OpenAI:
+# 1. Obtener API key en: https://platform.openai.com/api-keys
+# 2. Configurar en la app o como variable de entorno: OPENAI_API_KEY

@@ -1,0 +1,128 @@
+# Dependencias de desarrollo para Educa Labs
+# Instalación: pip install -r requirements-dev.txt
+
+# ===============================================================================
+# DEPENDENCIAS DE PRODUCCIÓN (incluidas automáticamente)
+# ===============================================================================
+-r requirements_optimized.txt
+
+# ===============================================================================
+# HERRAMIENTAS DE DESARROLLO
+# ===============================================================================
+
+# Formateo de código
+black>=23.0.0                   # Formateador de código Python
+isort>=5.12.0                   # Organizador de imports
+
+# Linting y análisis de código
+flake8>=6.0.0                   # Linter principal
+flake8-docstrings>=1.7.0        # Verificación de docstrings
+flake8-import-order>=0.18.0     # Orden de imports
+pylint>=2.17.0                  # Análisis estático avanzado
+
+# Testing
+pytest>=7.4.0                   # Framework de testing
+pytest-cov>=4.1.0              # Coverage de tests
+pytest-mock>=3.11.0            # Mocking para tests
+pytest-streamlit>=0.3.0        # Testing específico para Streamlit
+
+# Documentación
+mkdocs>=1.5.0                   # Generador de documentación
+mkdocs-material>=9.0.0         # Theme material para docs
+mkdocstrings>=0.22.0           # Generación automática desde docstrings
+
+# Análisis de dependencias
+pipdeptree>=2.13.0             # Visualizar árbol de dependencias
+safety>=2.3.0                  # Verificar vulnerabilidades de seguridad
+
+# Pre-commit hooks
+pre-commit>=3.3.0              # Hooks de pre-commit
+commitizen>=3.6.0              # Commits convencionales
+
+# ===============================================================================
+# HERRAMIENTAS DE ACCESIBILIDAD (DESARROLLO)
+# ===============================================================================
+
+# Testing de accesibilidad
+axe-selenium-python>=2.1.6     # Integración axe-core para testing
+selenium>=4.11.0               # Para testing de UI automatizado
+webdriver-manager>=4.0.0       # Gestión automática de drivers
+
+# ===============================================================================
+# UTILIDADES DE DESARROLLO
+# ===============================================================================
+
+# Debugging y profiling
+ipdb>=0.13.0                   # Debugger interactivo
+memory-profiler>=0.61.0        # Análisis de memoria
+line-profiler>=4.1.0           # Análisis de performance línea por línea
+
+# Jupyter (opcional para análisis)
+jupyter>=1.0.0                 # Jupyter notebooks
+ipykernel>=6.25.0              # Kernel de Python
+
+# Variables de entorno (desarrollo)
+python-decouple>=3.8           # Gestión avanzada de configuración
+
+# ===============================================================================
+# CONFIGURACIÓN RECOMENDADA
+# ===============================================================================
+
+# Crear archivo .pre-commit-config.yaml con:
+# repos:
+#   - repo: https://github.com/psf/black
+#     rev: 23.7.0
+#     hooks:
+#       - id: black
+#   - repo: https://github.com/pycqa/isort
+#     rev: 5.12.0
+#     hooks:
+#       - id: isort
+#   - repo: https://github.com/pycqa/flake8
+#     rev: 6.0.0
+#     hooks:
+#       - id: flake8
+
+# ===============================================================================
+# COMANDOS ÚTILES DE DESARROLLO
+# ===============================================================================
+
+# Formatear código:
+# black .
+# isort .
+
+# Linting:
+# flake8 .
+# pylint *.py
+
+# Testing:
+# pytest tests/ --cov=. --cov-report=html
+
+# Verificar seguridad:
+# safety check
+
+# Instalar pre-commit:
+# pre-commit install
+
+# Generar documentación:
+# mkdocs serve
+
+# ===============================================================================
+# NOTAS DE INSTALACIÓN
+# ===============================================================================
+
+# Para desarrollo completo:
+# 1. pip install -r requirements-dev.txt
+# 2. pre-commit install
+# 3. Configurar editor con black, isort, flake8
+
+# Para testing de accesibilidad:
+# 1. Instalar ChromeDriver o usar webdriver-manager
+# 2. Configurar tests con axe-selenium-python
+# 3. Revisar documentación de WCAG 2.1
+
+# Para documentación:
+# 1. mkdocs new . (si es primera vez)
+# 2. Editar mkdocs.yml según necesidades
+# 3. mkdocs serve para desarrollo
+# 4. mkdocs build para producción

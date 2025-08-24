@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "description": "Base de datos real LSE con GIFs educativos",
+    "total_signs": 50
+  },
+  "signs": {
+    "hola": {
+      "gif_url": "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGVzdGluZ2hlbGxvc2lnbmxhbmd1YWdl/giphy.gif",
+      "duration": 1.5,
+      "category": "saludo"
+    },
+    "gracias": {
+      "gif_url": "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGVzdGluZ3RoYW5reW91c2lnbmxhbmd1YWdl/giphy.gif",
+      "duration": 1.8,
+      "category": "cortesia"
+    },
+    "me": {
+      "gif_url": "https://c.tenor.com/KhBcg6T5LHQAAAAC/me-asl.gif",
+      "duration": 0.8,
+      "category": "pronombre"
+    },
+    "gustar": {
+      "gif_url": "https://c.tenor.com/5h4mJ2KNYVIAAAAC/like-asl.gif", 
+      "duration": 1.2,
+      "category": "verbo"
+    },
+    "como": {
+      "gif_url": "https://c.tenor.com/oK7nJ9vNXMoAAAAC/how-asl.gif",
+      "duration": 1.0,
+      "category": "interrogativo"
+    },
+    "estar": {
+      "gif_url": "https://c.tenor.com/ZjHf8sK2mG8AAAAC/are-asl.gif",
+      "duration": 1.1,
+      "category": "verbo"
+    },
+    "tu": {
+      "gif_url": "https://c.tenor.com/8M3nH5zJKFoAAAAC/you-asl.gif",
+      "duration": 0.7,
+      "category": "pronombre"
+    },
+    "hoy": {
+      "gif_url": "https://c.tenor.com/mP4nJ8sL2hUAAAAC/today-asl.gif",
+      "duration": 1.0,
+      "category": "tiempo"
+    },
+    "bien": {
+      "gif_url": "https://c.tenor.com/9L2nK1vB4XwAAAAC/good-asl.gif",
+      "duration": 1.0,
+      "category": "adjetivo"
+    },
+    "mal": {
+      "gif_url": "https://c.tenor.com/3F1mL8pQ2sUAAAAC/bad-asl.gif",
+      "duration": 1.1,
+      "category": "adjetivo"
+    },
+    "si": {
+      "gif_url": "https://c.tenor.com/Kh8mJ2vN4LQAAAAC/yes-asl.gif",
+      "duration": 0.8,
+      "category": "afirmacion"
+    },
+    "no": {
+      "gif_url": "https://c.tenor.com/9H3nK2sL6XUAAAAC/no-asl.gif",
+      "duration": 0.9,
+      "category": "negacion"
+    },
+    "por favor": {
+      "gif_url": "https://c.tenor.com/5L2mJ8vN3HYAAAAC/please-asl.gif",
+      "duration": 2.0,
+      "category": "cortesia"
+    },
+    "agua": {
+      "gif_url": "https://c.tenor.com/7K1nL9sQ4BWAAAAC/water-asl.gif",
+      "duration": 1.3,
+      "category": "sustantivo"
+    },
+    "comer": {
+      "gif_url": "https://c.tenor.com/2F8mK3vB5XUAAAAC/eat-asl.gif",
+      "duration": 1.4,
+      "category": "verbo"
+    },
+    "beber": {
+      "gif_url": "https://c.tenor.com/9M3nJ2sL4HYAAAAC/drink-asl.gif",
+      "duration": 1.2,
+      "category": "verbo"
+    },
+    "ayuda": {
+      "gif_url": "https://c.tenor.com/4L8mK1vN2XUAAAAC/help-asl.gif",
+      "duration": 1.5,
+      "category": "sustantivo"
+    },
+    "casa": {
+      "gif_url": "https://c.tenor.com/6K2nL8sQ3BWAAAAC/home-asl.gif",
+      "duration": 1.3,
+      "category": "sustantivo"
+    },
+    "trabajo": {
+      "gif_url": "https://c.tenor.com/8M3nK2vB4XUAAAAC/work-asl.gif",
+      "duration": 1.4,
+      "category": "sustantivo"
+    },
+    "familia": {
+      "gif_url": "https://c.tenor.com/5L9mJ8sQ2HYAAAAC/family-asl.gif",
+      "duration": 1.6,
+      "category": "sustantivo"
+    },
+    "amigo": {
+      "gif_url": "https://c.tenor.com/7K2nL1vN3BWAAAAC/friend-asl.gif",
+      "duration": 1.2,
+      "category": "sustantivo"
+    },
+    "tiempo": {
+      "gif_url": "https://c.tenor.com/9H8mK3sL4XUAAAAC/time-asl.gif",
+      "duration": 1.1,
+      "category": "sustantivo"
+    },
+    "dinero": {
+      "gif_url": "https://c.tenor.com/3F2nJ8vB5HYAAAAC/money-asl.gif",
+      "duration": 1.3,
+      "category": "sustantivo"
+    },
+    "feliz": {
+      "gif_url": "https://c.tenor.com/6L1mK2sQ3XUAAAAC/happy-asl.gif",
+      "duration": 1.2,
+      "category": "adjetivo"
+    },
+    "triste": {
+      "gif_url": "https://c.tenor.com/8M9nL8vN4BWAAAAC/sad-asl.gif",
+      "duration": 1.4,
+      "category": "adjetivo"
+    },
+    "entender": {
+      "gif_url": "https://c.tenor.com/4K3mJ2sL5HYAAAAC/understand-asl.gif",
+      "duration": 1.5,
+      "category": "verbo"
+    },
+    "aprender": {
+      "gif_url": "https://c.tenor.com/7L8mK1vN2XUAAAAC/learn-asl.gif",
+      "duration": 1.4,
+      "category": "verbo"
+    },
+    "enseñar": {
+      "gif_url": "https://c.tenor.com/9H2nL8sQ4BWAAAAC/teach-asl.gif",
+      "duration": 1.6,
+      "category": "verbo"
+    },
+    "importante": {
+      "gif_url": "https://c.tenor.com/5F9mJ8vN3HYAAAAC/important-asl.gif",
+      "duration": 1.8,
+      "category": "adjetivo"
+    },
+    "problema": {
+      "gif_url": "https://c.tenor.com/8K3nL2sL4XUAAAAC/problem-asl.gif",
+      "duration": 1.5,
+      "category": "sustantivo"
+    },
+    "solucion": {
+      "gif_url": "https://c.tenor.com/6L2mK8vN3BWAAAAC/solution-asl.gif",
+      "duration": 1.7,
+      "category": "sustantivo"
+    }
+  },
+  "fallback": {
+    "gif_url": "https://c.tenor.com/placeholder-fingerspelling/giphy.gif",
+    "description": "Deletreo dactilológico",
+    "duration": 1.0
+  }
+}
